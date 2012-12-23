@@ -1,0 +1,90 @@
+.scroll {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 42px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.article-list-item .article-list-item-heading {
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0 0 6px 0;
+	white-space: normal;
+}
+
+.article-list-item p {
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0 0 6px 0;
+	white-space: normal;
+}
+
+.article-list-item-thumbnail {
+	width: 90px;
+	float: right;
+	margin-left: 10px;
+}
+
+.header-logo {
+	float: left;
+	height: 40px;
+	width: 220px;
+	font-size: 20px;
+	line-height: 40px;
+	text-indent: 20px;
+	color: #000000;
+}
+
+.header-back-button {
+	float: left;
+	height: 40px;
+	width: 180px;
+	background: url('../img/phillipian_header_back_btn.png');
+	cursor: pointer;
+}
+
+.ui-header {
+	height: 42px;
+}
+
+.article-view-content h1 {
+	font-size: 22px;
+	line-height: 26px;
+	margin: 0 0 10px 0;
+	white-space: normal;
+}
+
+.article-top p{
+	line-height: 1.2em;
+	margin: 0;
+}
+
+.article-view-content img {
+	margin: 10px 0 4px 0;
+	max-width: 100%;
+}
+
+.article-view-image-description {
+	font-size: 10px;
+}
+
+.article-view-body p{
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+.article-view-body {
+	margin: 14px 0 40px 0;
+}
+
+.ui-header .ui-select {
+	float: right;
+}
+
+iframe {
+	width: 100%;
+	height: 400px;
+}

@@ -1,0 +1,9 @@
+<a href="#article/<%= nid %>">
+	<p><%= section %></p>
+	<h3 class="article-list-item-heading ui-li-heading"><%= title %></h3>
+	<p>By <%= writer %> | <%= publishedDateShort %></p>
+	<div class="article-list-item-thumbnail">
+		<% if(square_thumbnail != null) print(square_thumbnail); %>
+	</div>
+	<p><%= teaser %></p>
+</a>

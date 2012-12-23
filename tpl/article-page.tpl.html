@@ -1,0 +1,29 @@
+<div data-role="header" data-position="fixed">
+	<div>
+		<a class="header-back-button back"><span class="header-logo"><small>the</small>phillipian<small>online</small></span></a>
+	</div>
+	<span class="ui-title" />
+</div>
+<div data-role="content" class="scroll article-view-content" id="content-wrapper">
+	<div id="scroller">
+	    <div class="article-top">
+			<h1><%= title %></h1>
+			<p><small>By <%= writer %> | <%= publishedDateLong %></small></p>
+			<% if(image != null) print(image); %>
+			<p class="article-view-image-description">
+				<%
+				    if(image != null) {
+						if(image_caption != null) print(image_caption);
+						if(image_credit != null) print(" (" + image_credit.toUpperCase() + ")");
+					}
+				%>
+			</p>
+		</div>
+		<div class="article-view-body">
+			<%= body %>
+		</div>
+        <div id="disqus_thread"></div>
+        <hr>
+        <iframe src="http://m.phillipian.net/disqus-comments.html?nid=<%= nid %>" frameBorder="0" class="article-comments"></iframe>
+	</div>
+</div>
